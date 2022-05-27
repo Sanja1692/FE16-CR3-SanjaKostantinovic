@@ -8,7 +8,7 @@ html {
 
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pics/hero1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/pics/hero1.jpg");
     /* Set a specific height */
     height: 60%;
     /* Position and center the image to scale nicely on all screens */
@@ -75,3 +75,10 @@ aside {
 .foot {
     background-color: #F8F9FA;
 }
+
+
+/* @media screen and (max-width: 480px) {
+    .smscreen {
+        hidde
+    }
+} */
