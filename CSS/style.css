@@ -76,9 +76,13 @@ aside {
     background-color: #F8F9FA;
 }
 
+.hover {
+    color: white;
+    transition: all 0.5s linear;
+}
 
-/* @media screen and (max-width: 480px) {
-    .smscreen {
-        hidde
-    }
-} */
+.hover:hover {
+    padding: 1em;
+    font-size: larger;
+    color: cyan;
+}
