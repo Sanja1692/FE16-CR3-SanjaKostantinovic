@@ -55,3 +55,27 @@ aside {
     padding: 50% 8% 50% 5%;
     float: left;
 }
+
+.allcards {
+    /* margin-left: 20vw;
+    margin-right: 20vw;
+    padding-left: 20vw;
+    padding-right: 20vw; */
+}
+
+.stage {
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+}
+
+.btn-load {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.load {
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+}
