@@ -57,9 +57,9 @@ aside {
 }
 
 .allcards {
-    /* margin-left: 20vw;
-    margin-right: 20vw;
-    padding-left: 20vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    /*  padding-left: 20vw;
     padding-right: 20vw; */
 }
 
@@ -72,10 +72,4 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.load {
-    /* display: flex;
-    justify-content: center; */
-    /* align-items: center; */
 }
