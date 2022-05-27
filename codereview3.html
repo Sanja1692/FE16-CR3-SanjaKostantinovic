@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="file.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <script src="JavaScript/file.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
     <title>World Music Festival</title>
     <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
@@ -89,7 +89,7 @@
     <div class="allcards">
         <div class="container">
             <h3 class="stage pt-3 pb-3">Stage 1</h3>
-            <div class="row">
+            <div class="row g-2">
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card" style="width: 18rem;">
                         <img src="https://cdn.pixabay.com/photo/2015/05/02/11/55/rihanna-749861_960_720.jpg" class="card-img-top" alt="rihanna">
@@ -130,7 +130,7 @@
         </div>
         <div class="container">
             <h3 class="stage pt-3 pb-3">Stage 2</h3>
-            <div class="row">
+            <div class="row g-2">
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card" style="width: 18rem;">
                         <img src="https://cdn.pixabay.com/photo/2019/03/08/12/00/guitar-4042209_960_720.jpg" class="card-img-top" alt="rihanna">
@@ -173,7 +173,7 @@
         </div>
         <div class="container">
             <h3 class="stage pt-3 pb-3">Stage 3</h3>
-            <div class="row">
+            <div class="row g-2">
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card" style="width: 18rem;">
                         <img src="https://cdn.pixabay.com/photo/2018/03/27/00/33/music-3264716_960_720.jpg" class="card-img-top" alt="rihanna">
@@ -219,32 +219,43 @@
 
     </div>
     <div class="foot">
-        <h3 class="stage pt-3 pb-3">Get in touch</h3>
-        <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://cdn.pixabay.com/photo/2017/08/01/14/51/concert-2566002_960_720.jpg" class="card-img-top" alt="rihanna">
-                </div>
-            </div>
+        <div class="container">
+            <div class="row g-2 justify-content-center">
+                <h3 class="stage pt-3 pb-3">Get in touch</h3>
 
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <div style="width: 18rem;">
-                    <br> Email address<br>
-                    <input type="text" name="firstname" placeholder="Enter email"><br><br>
-                    <span>We'll never share your email with anyone else.</span> Name:
-                    <br>
-                    <input type="text" name="lastname" placeholder="Password"><br><br> Message
-                    <br>
-                    <textarea id="w3review" name="w3review" rows="4" cols="30">
-                                                </textarea>
+                <div class="col-sm-0 col-md-12 col-lg-6">
+                    <div style="width: 25rem;">
+                        <img src="https://cdn.pixabay.com/photo/2017/08/01/14/51/concert-2566002_960_720.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group pt-3">
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Password">
+
+                    </div>
+                    <div class="form-group pt-3">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
                     <form class="btn-load">
                         <a href=""><button class="btn btn-secondary btn-hover m-3 load" type="submit">Load More</button></a>
                     </form>
-                </div>
-            </div>
 
+                </div>
+
+            </div>
         </div>
     </div>
+    <footer class="text-center pt-2 pb-1 bg-black text-white">
+        <p>© Copyright 2022 Sanja Kostantinovic</p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 

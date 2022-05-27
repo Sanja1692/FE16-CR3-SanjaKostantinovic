@@ -59,8 +59,6 @@ aside {
 .allcards {
     margin-left: 15vw;
     margin-right: 15vw;
-    /*  padding-left: 20vw;
-    padding-right: 20vw; */
 }
 
 .stage {
@@ -72,4 +70,8 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.foot {
+    background-color: #F8F9FA;
 }
