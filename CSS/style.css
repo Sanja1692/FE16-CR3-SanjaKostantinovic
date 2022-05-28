@@ -82,11 +82,32 @@ aside {
 
 .hover {
     color: white;
-    transition: all 0.5s linear;
+    transition: all 0.8s linear;
 }
 
 .hover:hover {
     padding: 1em;
+    font-size: x-large;
+    color: cyan;
+}
+
+.hov {
+    transition: all 0.8s linear;
+}
+
+.hov:hover {
+    padding: 1em;
     font-size: larger;
     color: cyan;
+}
+
+.none {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .mygap {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
 }
